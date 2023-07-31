@@ -13,6 +13,36 @@ const router = createRouter({
       path: '/dashboard',
       name: 'dashboard',
       component: () => import('../views/DashboardView.vue')
+    },
+    {
+      path: '/penjualan',
+      name: 'penjualan',
+      component: () => import('../views/PenjualanView.vue')
+    },
+    {
+      path: '/pembelian',
+      name: 'pembelian',
+      component: () => import('../views/PembelianView.vue')
+    },
+    {
+      path: '/retur',
+      name: 'retur',
+      component: () => import('../views/ReturView.vue')
+    },
+    {
+      path: '/laporan',
+      name: 'laporan',
+      component: () => import('../views/LaporanView.vue')
+    },
+    {
+      path: '/barang',
+      name: 'barang',
+      component: () => import('../views/BarangView.vue')
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: () => import('../views/ProfileView.vue')
     }
   ]
 })
