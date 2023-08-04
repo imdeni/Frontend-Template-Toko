@@ -10,12 +10,14 @@ export default {
       return {
         form: { 
           menu:"0",
+          m:"",
         },
       }
     },
     methods: {
       Tampil_menu() {
         this.form.menu="1";
+        this.form.m="1";
       },
       Sembunyi_menu() {
         this.form.menu="0";
